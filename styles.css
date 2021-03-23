@@ -1,0 +1,25 @@
+body
+{
+    background: rgb(59, 57, 57);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.assignment
+{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    background: darkgrey;
+}
+
+.assignment img
+{
+    width: 200px;
+    padding: 10px;
+}
+
+h1
+{
+    color:deepskyblue;
+    text-align: center;
+}
