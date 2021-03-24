@@ -1,6 +1,6 @@
 body
 {
-    background: rgb(59, 57, 57);
+    background: #011126;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -9,17 +9,40 @@ body
     display: flex;
     padding: 10px;
     margin: 10px;
-    background: darkgrey;
+    background: #023859;
+    border-radius: 4px;
 }
 
 .assignment img
 {
     width: 200px;
-    padding: 10px;
+    margin: 10px;
+    border: 3px solid #0FB2F2;
+}
+
+.assignment img:hover
+{
+    border: 3px solid #03738C;
 }
 
 h1
 {
-    color:deepskyblue;
+    color: #03738C;
     text-align: center;
+}
+
+h1:hover
+{
+    color: #03738C;
+}
+
+a
+{
+    text-decoration: none;
+    color: #0FB2F2;
+}
+
+a:hover
+{
+    color: #03738C;
 }
